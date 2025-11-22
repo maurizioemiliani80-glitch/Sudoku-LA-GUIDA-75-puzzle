@@ -26,7 +26,7 @@
             padding: 40px;
             border-radius: 10px;
             box-shadow: 0 10px 40px rgba(0,0,0,0.1);
-            max-width: 500px;
+            max-width: 700px;
             width: 100%;
         }
         
@@ -42,51 +42,10 @@
             font-size: 14px;
         }
         
-        .form-group {
-            margin-bottom: 20px;
-        }
-        
-        label {
-            display: block;
-            color: #333;
-            font-weight: 500;
-            margin-bottom: 8px;
-            font-size: 14px;
-        }
-        
-        input {
+        iframe {
             width: 100%;
-            padding: 12px;
-            border: 2px solid #e0e0e0;
-            border-radius: 6px;
-            font-size: 14px;
-            transition: border-color 0.3s;
-        }
-        
-        input:focus {
-            outline: none;
-            border-color: #667eea;
-        }
-        
-        button {
-            width: 100%;
-            padding: 12px;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            color: white;
             border: none;
             border-radius: 6px;
-            font-size: 16px;
-            font-weight: 600;
-            cursor: pointer;
-            transition: transform 0.2s;
-        }
-        
-        button:hover {
-            transform: translateY(-2px);
-        }
-        
-        button:active {
-            transform: translateY(0);
         }
         
         .info {
@@ -105,25 +64,7 @@
         <h1>🎉 Puzzle Sudoku Bonus</h1>
         <p class="subtitle">Scarica gratuitamente i puzzle aggiuntivi per continuare a giocare</p>
         
-        <form action="https://formspree.io/f/mgvqoelb" method="POST">
-            <div class="form-group">
-                <label for="name">Nome</label>
-                <input type="text" id="name" name="name" placeholder="Il tuo nome" required>
-            </div>
-            
-            <div class="form-group">
-                <label for="email">Email</label>
-                <input type="email" id="email" name="email" placeholder="La tua email" required>
-            </div>
-            
-            <!-- Campo nascosto per reindirizzamento automatico -->
-            <input type="hidden" name="_next" value="https://drive.google.com/uc?export=download&id=18OEtIPx2uSnDvsCKLA6PPkmYxtphIEhB">
-            
-            <!-- Campo nascosto per l'oggetto email -->
-            <input type="hidden" name="_subject" value="Nuovo download puzzle sudoku">
-            
-            <button type="submit">📥 Scarica i Puzzle</button>
-        </form>
+        <iframe src="https://forms.gle/tf7PTWr6rjBzZ91V9" height="600" frameborder="0" marginheight="0" marginwidth="0">Caricamento…</iframe>
         
         <div class="info">
             ℹ️ La tua email verrà utilizzata solo per consentirti il download. Nessuno spam!
